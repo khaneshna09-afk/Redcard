@@ -1,0 +1,377 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#ffffff;
+    font-family:Arial, sans-serif;
+}
+
+/* ==========================
+   MAIN CONTAINER
+========================== */
+
+.container{
+    width:100%;
+    min-height:100vh;
+}
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo{
+    width:80px;
+    margin-top:20px;
+    margin-left:95px;
+    display:block;
+}
+
+/* ==========================
+   MAIN BOX
+========================== */
+
+.form-box{
+
+    width:1120px;
+    height:585px;
+
+    background:#8B2D2E;
+
+    margin-left:95px;
+    margin-top:20px;
+
+    display:flex;
+
+    position:relative;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.20);
+
+    clip-path:polygon(
+    0 0,
+    100% 0,
+    100% 92%,
+    92% 100%,
+    0 100%
+    );
+}
+
+/* ==========================
+   LEFT SECTION
+========================== */
+
+.left-section{
+
+    width:38%;
+
+    color:white;
+
+    padding:150px 40px 0 40px;
+}
+
+.left-section h1{
+
+    font-size:58px;
+
+    font-weight:900;
+
+    line-height:55px;
+
+    margin-bottom:30px;
+
+    font-family:"Arial Black", Arial, sans-serif;
+}
+
+.left-section p{
+
+    width:400px;
+
+    font-size:14px;
+    font-weight: 500;
+    line-height:16px;
+    position: relative;
+    margin-bottom:60px;
+    color:black;
+    font-family: Arial, sans-serif;
+    opacity: 0.85;
+}
+.left-section p::after {
+    content: "";
+    position: absolute;
+    right:20px; /* Isko adjust karke box ko aage peeche kar sakti hain */
+    top: 50px;    /* Isko adjust karke box ko upar neeche kar sakti hain */
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    color: #8B2D2E; /* Box ke andar plus ka color maroon rahega */
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section h3{
+
+    position: relative;
+    line-height:35px;
+    font-weight:900;
+    color:black;
+    width: 330px;
+    font-size: 20px; /* Pehle image ki tarah font size barha kiya */
+    font-family: "Arial Black", Arial, sans-serif; /* Heavy font apply kiya */
+   
+}
+.left-section h3::after {
+    content: "";
+    position: absolute;
+    right:20px;
+    top: 50px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    color: #8B2D2E;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-section strong{
+
+    font-size: 20px;
+    font-weight: 900px;
+    color:black;
+    line-height: 35px;
+}
+
+/* ==========================
+   RIGHT SECTION
+========================== */
+
+.right-section{
+
+    width:62%;
+
+    padding:28px 55px 0 25px;
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.right-section form{
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+/* ==========================
+   INPUTS
+========================== */
+
+.right-section input[type="text"],
+.right-section input[type="email"]{
+
+    width:100%;
+
+    height:28px;
+
+    background:transparent;
+
+    border:1px solid #d9d9d9;
+
+    color:white;
+
+    padding-left:8px;
+
+    margin-bottom:8px;
+
+    outline:none;
+
+    font-size:11px;
+}
+
+.right-section input::placeholder{
+
+    color:#e8e8e8;
+}
+
+/* ==========================
+   WHICH AWARD
+========================== */
+
+.right-section h2{
+
+    color:black;
+
+    font-size:16px;
+
+    margin-top:6px;
+
+    margin-bottom:3px;
+
+    font-weight:900;
+}
+
+.award-text{
+
+    color:#ececec;
+
+    font-size:8px;
+
+    margin-bottom:12px;
+}
+
+/* ==========================
+   AWARD ITEM
+========================== */
+
+.award-item{
+
+    margin-bottom:10px;
+}
+
+.award-item label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    color:#ececec;
+
+    font-size:9px;
+
+    margin-bottom:5px;
+}
+
+.award-item input[type="checkbox"]{
+
+    width:9px;
+
+    height:9px;
+}
+
+/* ==========================
+   TEXTAREA
+========================== */
+
+.award-item textarea{
+
+    width:100%;
+
+    height:30px;
+
+    background:transparent;
+
+    border:1px solid #d9d9d9;
+
+    color:white;
+
+    padding:6px;
+
+    resize:none;
+
+    outline:none;
+
+    font-size:9px;
+}
+
+.award-item textarea::placeholder{
+
+    color:#dddddd;
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+.right-section button{
+
+    width:185px;
+
+    height:34px;
+
+    margin-top:14px;
+
+    background:white;
+
+    border:none;
+
+    color:#555;
+
+    font-size:13px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.right-section button:hover{
+
+    background:#f2f2f2;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:1200px){
+
+.form-box{
+
+    width:95%;
+
+    margin:30px auto;
+
+}
+
+.logo{
+
+    margin-left:25px;
+}
+
+}
+
+@media(max-width:900px){
+
+.form-box{
+
+    flex-direction:column;
+
+    height:auto;
+
+    clip-path:none;
+
+}
+
+.left-section{
+
+    width:100%;
+
+    padding:60px 30px 30px;
+
+}
+
+.right-section{
+
+    width:100%;
+
+    padding:30px;
+
+}
+
+.left-section p{
+
+    width:100%;
+}
+
+}
