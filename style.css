@@ -28,9 +28,9 @@ body{
 ========================== */
 
 .logo{
-    width:80px;
+    width:95px;
     margin-top:20px;
-    margin-left:95px;
+    margin-left:15px;
     display:block;
 }
 
@@ -40,11 +40,11 @@ body{
 
 .form-box{
 
-    width:1150px;
-    height: 600px;
+    width:99%;
+    height: 1000px;
     background:#8B2D2E;
 
-    margin-left:95px;
+    margin-left:15px;
     margin-top:10px;
 
     display:flex;
@@ -77,24 +77,23 @@ body{
 
 .left-section h1{
 
-    font-size:58px;
-
+    font-size:90px;
+    margin-top: 105px;
     font-weight:900;
 
     line-height:55px;
 
     margin-bottom:30px;
-
+    
     font-family:"Arial Black", Arial, sans-serif;
 }
 
 .left-section p{
 
-    width:400px;
-
-    font-size:14px;
+    width: 800px;
+    font-size:21px;
     font-weight: 500;
-    line-height:16px;
+    line-height:26px;
     position: relative;
     margin-bottom:20px;
     color:black;
@@ -106,8 +105,8 @@ body{
     position: absolute;
     right:20px; /* Isko adjust karke box ko aage peeche kar sakti hain */
     top: 50px;    /* Isko adjust karke box ko upar neeche kar sakti hain */
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-color: white;
     color: #8B2D2E; /* Box ke andar plus ka color maroon rahega */
     font-size: 12px;
@@ -119,21 +118,20 @@ body{
 .left-section h3{
 
     position: relative;
-    line-height:35px;
+    line-height:30px;
     font-weight:900;
     color:black;
-    width: 330px;
-    font-size: 20px; /* Pehle image ki tarah font size barha kiya */
+    width: 500px;
+    font-size: 26px; /* Pehle image ki tarah font size barha kiya */
     font-family: "Arial Black", Arial, sans-serif; /* Heavy font apply kiya */
-   
 }
 .left-section h3::after {
     content: "";
     position: absolute;
     right:20px;
     top: 50px;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-color: white;
     color: #8B2D2E;
     font-size: 12px;
@@ -144,7 +142,7 @@ body{
 }
 .left-section strong{
 
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 900px;
     color:black;
     line-height: 35px;
@@ -156,9 +154,9 @@ body{
 
 .right-section{
 
-    width:32%;
+    width:38%;
     margin-left: 190px;
-    padding: 35px 45px 0 30px;
+    padding: 65px 35px 0 35px;
     margin-right: -80px;
 }
 
@@ -181,7 +179,7 @@ body{
 
     width:100%;
 
-    height:35px;
+    height:50px;
 
     background:transparent;
 
@@ -211,9 +209,9 @@ body{
 
     color:black;
 
-    font-size:16px;
+    font-size:20px;
 
-    margin-top:6px;
+    margin-top:20px;
 
     margin-bottom:3px;
 
@@ -224,7 +222,7 @@ body{
 
     color:#ececec;
 
-    font-size:8px;
+    font-size:10px;
 
     margin-bottom:12px;
 }
@@ -235,8 +233,8 @@ body{
 
 .award-item{
 
-    margin-bottom:10px;
-    
+    margin-bottom:-10px;
+    margin-top: 20px;
 }
 
 .award-item label{
@@ -249,7 +247,7 @@ body{
 
     color:#ececec;
 
-    font-size:9px;
+    font-size:10px;
 
     margin-bottom:5px;
     position: relative; 
@@ -258,7 +256,7 @@ body{
 .award-item label::after {
     content: "";
     position: absolute;
-    right: 30px; /* Is se box bilkul text line ke aakhir (right side) mein chipak jayega */
+    right: 210px; /* Is se box bilkul text line ke aakhir (right side) mein chipak jayega */
     top: 50%;
     transform: translateY(-50%); /* Box ko vertically seedha center karega */
     
@@ -268,10 +266,19 @@ body{
     background-color: white;
 }
 .award-item input[type="checkbox"]{
-
-    width:9px;
-
-    height:9px;
+    -webkit-appearance: none; /* Safari/Chrome ke liye default white box hataye ga */
+    appearance: none;          /* Modern browsers ke liye default style hataye ga */
+    
+    width: 9px;
+    height: 9px;
+    
+    background: transparent;   /* Is se box transparent ho jayega */
+    border: 1px solid white;   /* Taake khali box ki boundary white line mein nazar aaye */
+    cursor: pointer;
+    outline: none;
+    
+    display: inline-grid;
+    place-content: center;
 }
 
 /* ==========================
@@ -282,12 +289,12 @@ body{
 
     width:100%;
 
-    height:30px;
+    height:70px;
 
     background:transparent;
 
     border:1px solid #d9d9d9;
-
+    
     color:white;
 
     padding:6px;
@@ -296,7 +303,7 @@ body{
 
     outline:none;
 
-    font-size:9px;
+    font-size:10px;
 }
 
 .award-item textarea::placeholder{
@@ -310,11 +317,10 @@ body{
 
 .right-section button{
 
-    width:200px;
+    width:380px;
+    height:50px;
 
-    height:30px;
-
-    margin-top:-5px;
+    margin-top:30px;
 
     background:white;
 
@@ -322,7 +328,7 @@ body{
 
     color:#555;
 
-    font-size:13px;
+    font-size:18px;
 
     cursor:pointer;
 
