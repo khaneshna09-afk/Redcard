@@ -73,8 +73,9 @@ main {
     -webkit-text-stroke: 1px black;
 }
 .heading-icon {
-    height: 43px;
+    height: 47px;
     margin-right: 20px;
+    margin-top: 5px;
     vertical-align: middle;
 }
 .award-row ul {
@@ -99,13 +100,13 @@ main {
     margin-bottom: 20px;
 }
 .award-row li strong {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #8B2630;
     font-weight: 900;
     display: block;
 }
 .award-row li span {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 900;
     color: #000000;
 }
@@ -120,10 +121,10 @@ footer {
     clip-path: polygon(0 0, 100% 0, 100% 75%, 85% 100%, 0 100%);
 }
 footer h4 {
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 900;
-    line-height: 1;
-    letter-spacing: 4px;
+    line-height: 1.2;
+    letter-spacing: 1px;
     max-width: 1000px;
     margin-left: 80px;
 }

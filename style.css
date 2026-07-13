@@ -247,7 +247,7 @@ body{
 
     color:#ececec;
     margin-left: -160px;
-    font-size:10px;
+    font-size:6px;
 
     margin-bottom:5px;
     position: relative; 
@@ -261,16 +261,16 @@ body{
     transform: translateY(-50%); /* Box ko vertically seedha center karega */
     
     /* Box ka design aur size */
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background-color: white;
 }
 .award-item input[type="checkbox"]{
     -webkit-appearance: none; /* Safari/Chrome ke liye default white box hataye ga */
     appearance: none;          /* Modern browsers ke liye default style hataye ga */
     
-    width: 9px;
-    height: 9px;
+    width: 7px;
+    height: 7px;
     
     background: transparent;   /* Is se box transparent ho jayega */
     border: 1px solid white;   /* Taake khali box ki boundary white line mein nazar aaye */
