@@ -77,7 +77,7 @@ body{
 
 .left-section h1{
 
-    font-size:90px;
+    font-size:80px;
     margin-top: 105px;
     font-weight:900;
 
@@ -91,7 +91,7 @@ body{
 .left-section p{
 
     width: 800px;
-    font-size:21px;
+    font-size:18px;
     font-weight: 500;
     line-height:26px;
     position: relative;
@@ -103,7 +103,7 @@ body{
 .left-section p::after {
     content: "";
     position: absolute;
-    right:220px; /* Isko adjust karke box ko aage peeche kar sakti hain */
+    right:280px; /* Isko adjust karke box ko aage peeche kar sakti hain */
     top: 70px;    /* Isko adjust karke box ko upar neeche kar sakti hain */
     width: 10px;
     height: 10px;
@@ -122,7 +122,7 @@ body{
     font-weight:900;
     color:black;
     width: 500px;
-    font-size: 26px; /* Pehle image ki tarah font size barha kiya */
+    font-size: 22px; /* Pehle image ki tarah font size barha kiya */
     font-family: "Arial Black", Arial, sans-serif; /* Heavy font apply kiya */
 }
 .left-section h3::after {
@@ -142,7 +142,7 @@ body{
 }
 .left-section strong{
 
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 900px;
     color:black;
     line-height: 35px;
@@ -247,7 +247,7 @@ body{
 
     color:#ececec;
     margin-left: -160px;
-    font-size:6px;
+    font-size:10px;
 
     margin-bottom:5px;
     position: relative; 
